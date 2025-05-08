@@ -31,6 +31,61 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+
+  <style>
+    .container{
+      width: 100%;
+      margin: 100px auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .card{
+      width: 500px;
+      margin: 0px 10px;
+      background-color: #fff;
+      overflow: hidden;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.4s ease;
+    }
+    .card:hover{
+      transform: translateY(-10px);
+    }
+    .card img{
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .card .content{
+      padding: 20px;
+    }
+
+    .card .content h2{
+      font-size: 18px;
+      color: #234eba;
+      margin-bottom: 10px;
+    }
+
+    .card .content p{
+      color: #333;
+      line-height: 1.4;
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container{
+        flex-direction: column;
+      }
+      .card{
+        width: 80%;
+        margin: 20px auto;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -168,55 +223,46 @@
           Байрны тохижилт
         </h2> -->
       </div>
-      <div class="row">
-        <div class=" col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-b3xisw_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-b3xisw_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+      
+      <div class="container">
+
+        <div class="card">
+          <img src="images/open-uri20240828-562582-b3xisw_.jpg">
+          <div class="content">
+            <h2>Cubu flex life 80 white шалны хүрээ</h2>
+            <p>12,900₮/м </p>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-fjtc4d_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-fjtc4d_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+
+        <div class="card">
+          <img src="images/open-uri20240828-562570-o4lkt4_.jpg">
+          <div class="content">
+            <h2>Cubu flex life 80 - 3202 OAK - Doellken Плинтус</h2>
+            <p>13,900₮/м</p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-h4z23u_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-h4z23u_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+
+
+        <div class="card">
+          <img src="images/open-uri20240828-562582-bkcpug_.jpg">
+          <div class="content">
+            <h2>Cubu flex life 100 шалны хүрээ- Doellken-Плинтус</h2>
+            <p>13,900₮/м</p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-h8frwc_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-h8frwc_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+
+
+        <div class="card">
+          <img src="images/open-uri20240828-562582-weo0xx_.jpg">
+          <div class="content">
+            <h2>Cubu flex life 80 BLACK 2.5M</h2>
+            <p>12,900₮/м</p>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-weo0xx_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-weo0xx_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/open-uri20240828-562582-zd5a2s_.jpg" alt="">
-            <a href="images/open-uri20240828-562582-zd5a2s_.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
+
+      
+
+
       </div>
       <div class="btn-box">
         <a href="gallery.html">
